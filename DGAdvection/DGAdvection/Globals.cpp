@@ -1,0 +1,1 @@
+extern const int N{ 2 };

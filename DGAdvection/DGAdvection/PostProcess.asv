@@ -1,0 +1,7 @@
+fileID = fopen('data.txt','r');
+sizeA = [2 Inf];
+formatSpec = '%f %f';
+A = fscanf(fileID,formatSpec,sizeA);
+A = A'
+
+plot(A(:,1),A(:,2));

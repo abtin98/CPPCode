@@ -1,1 +1,1 @@
-extern const int N{ 2 };
+extern const int N{ 3 };
